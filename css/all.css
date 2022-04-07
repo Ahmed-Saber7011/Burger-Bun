@@ -1,0 +1,255 @@
+body {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-family: arial, sans-serif;
+}
+
+.container-header {
+  width: 100%;
+  height: 800px;
+  background: #eee;
+  margin: auto;
+  overflow-x: hidden;
+  color: #fff;
+}
+
+header {
+  padding: 0 2rem;
+  min-height: 100%;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/banner.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+/*start logo */
+.logo {
+  height: 50px;
+  float: left;
+  margin-left: 20px;
+}
+
+.fi {
+  width: 100%;
+}
+
+.img-nav {
+  float: left;
+}
+
+figcaption {
+  font-size: 35px;
+}
+
+/* End logo */
+/* start  NavBar */
+.banner {
+  width: 500px;
+  height: 60px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 25px;
+}
+
+.menu {
+  padding: 24px;
+  font-size: large;
+}
+
+.menu:hover {
+  color: gold;
+}
+
+/* End  NavBar */
+/* start header text */
+.hero {
+  position: absolute;
+  top: 13%;
+  margin-left: 48px;
+}
+
+.hero__heading {
+  margin: 34px 0px 0px 0px;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.05;
+  margin-bottom: 0.2rem;
+}
+
+h2 {
+  font-size: 5.2rem;
+  margin: 0;
+  color: transparent;
+  -webkit-text-stroke: 2px #fff;
+}
+
+.hero--highlight {
+  font-weight: 200;
+}
+
+.hero__content {
+  width: 50%;
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+/* button see menu */
+.hero__btn {
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: #ceb013;
+  outline: none;
+  border: none;
+  border-radius: 0.9rem;
+  padding: 1.6rem 3.2rem;
+  margin-top: 0.8rem;
+  margin-right: 44px;
+  cursor: pointer;
+  float: left;
+}
+
+/* button Book a table */
+.hero__btn2 {
+  font-size: 2rem;
+  font-weight: 600;
+  outline: none;
+  border-style: ridge;
+  border-color: #ceb013;
+  border-radius: 0.9rem;
+  padding: 1.6rem 3.2rem;
+  margin-top: 0.8rem;
+  margin-right: 44px;
+  cursor: pointer;
+  float: left;
+}
+
+/* End header text */
+/* start card */
+.container-cart {
+  background: #dcdcdc;
+  height: 400px;
+}
+
+.cd {
+  margin: 0px 84px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin: 0.5rem;
+  margin-left: 53px;
+  padding: 1rem 1.4rem;
+  color: black;
+  background: transparent;
+  border: 0.165rem solid currentColor;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 1.4rem;
+  font-family: "Inconsolata", monospace;
+  cursor: pointer;
+  float: left;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.card:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* End card */
+/* start burger1 ingredients */
+.container-ingredients {
+  height: 500px;
+  background-color: #fff;
+}
+
+.ingredients {
+  float: left;
+  margin: 48px 296px 0px 226px;
+}
+
+ol {
+  list-style: '\2661';
+  color: cadetblue;
+  font-size: xx-large;
+  line-height: 65px;
+}
+
+.burger1 {
+ width: 25%;
+}
+
+ol li::marker {
+  color: orange;
+}
+
+/* End burger1 ingredients */
+/* stert communication  */
+.containe {
+  height: 300px;
+  min-height: 100%;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/bg.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.communication {
+  text-align: center;
+  padding-top: 89px;
+  font-size: 33px;
+
+}
+
+.communication span {
+  color: gold;
+}
+
+.clearfix {
+  margin-left: 424px;
+}
+
+/* button Book and contact  */
+.contact {
+  font-size: 2rem;
+  font-weight: 600;
+  background-color: #ceb013;
+  border-radius: 0.9rem;
+  padding: 0.7rem 1.2rem;
+  margin-right: 44px;
+  float: left;
+}
+
+.Book {
+  font-size: 2rem;
+  font-weight: 600;
+  outline: none;
+  border-style: ridge;
+  border-color: #ceb013;
+  border-radius: 0.9rem;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  float: left;
+}
+
+/* End communication  */
+/* start footer */
+footer {
+  height: 50px;
+  width: 100%;
+  background: #3e3434;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* End footer */
