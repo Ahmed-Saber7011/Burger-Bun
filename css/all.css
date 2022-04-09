@@ -212,6 +212,7 @@ ol li::marker {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/bg.jpg);
   background-position: bottom;
   background-size: cover;
+  overflow: hidden;
 }
 
 .communication {
@@ -239,13 +240,9 @@ ol li::marker {
   margin-right: 44px;
   float: left;
       /* margin: 0; */
-      position: fixed;
-      top: 78%;
-      left: 631px;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
+    
   }
-}
+
 
 .Book {
   font-size: 2rem;
@@ -258,13 +255,9 @@ ol li::marker {
   cursor: pointer;
   float: left;
       /* margin: 0; */
-      position: fixed;
-      top: 78%;
-      left: 631px;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
+     
   }
-}
+
 
 /* End communication  */
 /* start footer */
